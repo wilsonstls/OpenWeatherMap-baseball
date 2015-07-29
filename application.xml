@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+   <beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+
+
+
+
+<!-- team options available in WeatherMappApp-->
+   <bean id="teamNames"  class="net.aksingh.owmjapis.BaseballTeams">
+        <property name="teamMap">
+           <map>
+               <entry key="Braves" value="4180439"/>
+               <entry key="Brewers" value="5263045"/>
+               <entry key="Cardinals" value="4407066"/>
+               <entry key="Cubs" value="4887398"/>
+               <entry key="Diamondbacks" value="5308655"/>
+               <entry key="Dodgers" value="5368361"/>
+               <entry key="Giants" value="5391959"/>
+               <entry key="Marlins" value="4164138"/>
+               <entry key="Mets" value="5128581"/>
+               <entry key="Nationals" value="4138106"/>
+               <entry key="Padres" value="5391811"/>
+               <entry key="Phillies" value="4560349"/>
+               <entry key="Pirates" value="5206379"/>
+               <entry key="Reds" value="4508722"/>
+               <entry key="Rockies" value="5419384"/>
+           </map>
+        </property>
+   </bean>
+
+
+   </beans>
