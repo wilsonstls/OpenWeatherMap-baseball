@@ -10,7 +10,11 @@
 <!-- team options available in WeatherMappApp-->
    <bean id="teamNames"  class="net.aksingh.owmjapis.BaseballTeams">
         <property name="teamMap">
-           <map>
+           <map>          
+               <entry key="Angels" value="5323810"/>
+               <entry key="Astros" value="4699066"/>
+               <entry key="Athletics" value="5378538"/>
+               <entry key="Blue Jays" value="6167865"/>
                <entry key="Braves" value="4180439"/>
                <entry key="Brewers" value="5263045"/>
                <entry key="Cardinals" value="4407066"/>
@@ -18,14 +22,25 @@
                <entry key="Diamondbacks" value="5308655"/>
                <entry key="Dodgers" value="5368361"/>
                <entry key="Giants" value="5391959"/>
+               <entry key="Indians" value="5150529"/>
+               <entry key="Mariners" value="5809844"/>
                <entry key="Marlins" value="4164138"/>
                <entry key="Mets" value="5128581"/>
                <entry key="Nationals" value="4138106"/>
+               <entry key="Orioles" value="4347778"/>
                <entry key="Padres" value="5391811"/>
                <entry key="Phillies" value="4560349"/>
                <entry key="Pirates" value="5206379"/>
+               <entry key="Rangers" value="4684888"/>
+               <entry key="Rays" value="4171563"/>
+               <entry key="Red Sox" value="4930956"/>
                <entry key="Reds" value="4508722"/>
                <entry key="Rockies" value="5419384"/>
+               <entry key="Royals" value="4273837"/>
+               <entry key="Tigers" value="4990729"/>
+               <entry key="Twins" value="5037649"/>
+               <entry key="White Sox" value="4887398"/>
+               <entry key="Yankees" value="5128581"/>
            </map>
         </property>
    </bean>

@@ -5,12 +5,14 @@ import java.util.Set;
 
 /**
 *7/25/15
-* Getter and Setter methods for BB team names
+ * Written by:  Kevin Wilson
+ * * Getter and Setter methods for BB team names
 */
 
 public class BaseballTeams {
 
     private Map teamMap;
+
 
     public void setTeamMap(Map teamMap) {
 
